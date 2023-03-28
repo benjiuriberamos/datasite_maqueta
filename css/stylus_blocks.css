@@ -1,6 +1,9 @@
-b1 {
+.b1 {
   background-color: #000;
 }
-b2 {
-  background-color: #000;
+.b1_title {
+  color: #00f;
+}
+.b2 {
+  background-color: #00f;
 }

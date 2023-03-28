@@ -1,2 +1,3 @@
+
 #PROCEDIMIENTOS
-stylus stylus/** -o css/stylus_blocks.css
+stylus stylus/stylus_blocks.styl -o css/stylus_blocks.css
