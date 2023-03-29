@@ -339,6 +339,10 @@ td {
 br {
   line-height: 1;
 }
+section {
+  min-height: auto;
+  max-width: auto;
+}
 header {
   font-family: 'Noto Sans', Helvetica, Arial, Lucida, sans-serif;
   font-style: italic;
