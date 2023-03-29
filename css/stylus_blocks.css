@@ -343,14 +343,14 @@ header {
   font-family: 'Noto Sans', Helvetica, Arial, Lucida, sans-serif;
   font-style: italic;
   font-size: 17px;
+}
+.b1_title {
   background-color: #000;
   height: 35px;
+  color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.b1_title {
-  color: #fff;
 }
 p {
   margin: 0;
