@@ -350,14 +350,13 @@ header {
 }
 .b1_title {
   background-color: #000;
-  height: 35px;
   color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 p {
-  margin: 0;
+  margin: 10px;
   padding: 0;
   border: 0;
   outline: 0;
@@ -366,6 +365,23 @@ p {
   -webkit-text-size-adjust: 100%;
   vertical-align: center;
   background: transparent;
+}
+.b1_title2 {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: linear-gradient(to left, #0077c2 50%, #7db9e8 50%);
+  position: relative;
+}
+.bi_title2::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background-image: radial-gradient(#0077c2 15%, transparent 16%);
+  background-size: 10px 10px;
 }
 .b2 {
   background-color: #00f;
