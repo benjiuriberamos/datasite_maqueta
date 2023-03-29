@@ -339,11 +339,29 @@ td {
 br {
   line-height: 1;
 }
-.b1 {
-  background-color: #ff0;
+header {
+  font-family: 'Noto Sans', Helvetica, Arial, Lucida, sans-serif;
+  font-style: italic;
+  font-size: 17px;
+  background-color: #000;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .b1_title {
-  color: #00f;
+  color: #fff;
+}
+p {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  vertical-align: center;
+  background: transparent;
 }
 .b2 {
   background-color: #00f;
